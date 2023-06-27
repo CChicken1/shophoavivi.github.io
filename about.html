@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Hoa ViVi</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo2.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styte/shop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+<body>
+<!-- header start  -->
+
+<header class="header">
+    <a href="#" class="logo">
+        <img src="img/logo2.png" alt="">
+    </a>
+    <nav class="navbar">
+        <a href="trangchu.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">shop</a>
+    </nav>
+    <div class="icon">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here....">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+   <div class="cart-items-container">
+    <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="img/img7.png" alt="">
+        <div class="content">
+            <h3>Hoa anh túc</h3>
+            <div class="price">140.000 VND</div>
+        </div>
+    </div>
+    <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="img/img10.png" alt="">
+        <div class="content">
+            <h3>Hoa anh túc</h3>
+            <div class="price">110.000 VND</div>
+        </div>
+       
+    </div>
+   </div>
+</header>
+
+<div class="breadcrumbs-area position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="breadcrumb-content position-relative section-content">
+                    <h1 class="title-3">Liên Hệ chúng tôi </h1>
+                        <a href="index.html">Home</a>
+                                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb Area End Here -->
+<!-- Contact Us Area Start Here -->
+<div class="contact-us-area mt-no-text">
+    <div class="container custom-area">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-custom">
+                <div class="contact-info-item">
+                    <div class="con-info-icon">
+                        <i class="lnr lnr-map-marker"></i>
+                    </div>
+                    <div class="con-info-txt">
+                        <h4>Địa chỉ liên hệ của chúng tôi</h4>
+                        <p> vivishop@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-custom">
+                <div class="contact-info-item">
+                    <div class="con-info-icon">
+                        <i class="lnr lnr-smartphone"></i>
+                    </div>
+                    <div class="con-info-txt">
+                        <h4>Bạn có thể liên hệ chúng tôi bất cứ lúc nào</h4>
+                        <p>Mobile: 0379846183</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-custom text-align-center">
+                <div class="contact-info-item">
+                    <div class="con-info-icon">
+                        <i class="lnr lnr-envelope"></i>
+                    </div>
+                    <div class="con-info-txt">
+                        <h4>Hỗ trợ </h4>
+                        <p>vivi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+               
+        <div class="contact_section layout_padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h1 class="contact_taital">Hãy Liên Hệ Với Chúng Tôi</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="contact_section_2">
+                  <div class="row">
+                     <div class="col-md-5">
+                        <div class="mail_section_1">
+                           <input type="text" class="mail_text" id="name" placeholder="Name" name="Name">
+                           
+                        </div>
+                     </div>  
+                     <div class="col-md-6">
+                        <div class="mail_section_1">
+                          
+                            <input type="email" class="mail_text" name="" id="email" placeholder="Enter your email" onfocusout="formValidate()">
+                        </div>
+                        
+                        
+                        </div>
+                     </div>                  
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                       <div class="mail_section_1">                        
+                     
+                          <textarea class="massage-bt" id="mess"placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                         
+                       </div>
+                    </div>                                     
+                 </div>
+                 <div class="row">
+                    <div class="col-md-12">
+                       <div class="mail_section_1">                        
+                        <input type="button" class="send_bt" id="btn" value="Gửi tin" onclick="send()">
+                       
+                       </div>
+                    </div>                                     
+                 </div>
+               </div>
+            </div>
+         </div>
+    </div>
+</div>
+ 
+<div class="footer_section layout_padding">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-sm-4">
+             <h3 class="footer_text">Useful links</h3>
+             <div class="footer_menu">
+                <ul>
+                   <li class="active"><a href="index.html"> Home</a></li>
+                   <li><a href="#">  About</a></li>
+                   <li><a href="#"> Services</a></li>
+                   <li><a href="#"> Domain</a></li>
+                   <li><a href="#">  Testimonial</a></li>
+                   <li><a href="#">  Contact Us</a></li>
+                </ul>
+             </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+             <h3 class="footer_text">Address</h3>
+             <div class="location_text">
+                <ul>
+                   <li>
+                      <a href="#">
+                      It is a long established fact that a<br> reader will be distracted</a>
+                   </li>
+                   <li>
+                      <a href="#">
+                     (+71) 1234567890<br>(+71) 1234567890
+                      </a>
+                   </li>
+                   <li>
+                      <a href="#">
+                      </i></span>vivi@gmail.com
+                      </a>
+                   </li>
+                </ul>
+             </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+           
+                <h3 class="footer_text">Find Us</h3>
+                <div class="footer_menu">
+                   <ul>
+                     
+                      <li><a href="#"> more-or-less </a></li>
+                      <li><a href="#">normal</a></li>
+                      <li><a href="#">distribution</a></li>
+                   </ul>
+                </div>                  
+             
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- footer section end -->
+ <!-- copyright section start -->
+ <div class="copyright_section">
+    <div class="container">
+       <p class="copyright_text">2023 chào mừng bạn đến với shop hoa kẽm nhung vivi</p>
+    </div>
+ </div>
+  
+ 
+
+    <script src="styte/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
